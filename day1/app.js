@@ -14,7 +14,7 @@ function active_header() {
   header_click.forEach((item) => {
     if (item != this) item.classList.remove("active");
   });
-  this.classList.toggle("active");
+  this.classList.add("active");
 }
 
 sidebar_click.forEach((item) => item.addEventListener("click",active_sidebar));

@@ -192,6 +192,7 @@ body .wrapper__content__body .card__create {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 12px;
+  gap: 15px;
 }
 
 body .wrapper__content__body .card__create :first-child {
